@@ -110,7 +110,83 @@
         </div>
         
         <p class="font-bold text-4xl lg:text-4xl mt-6 text-gray-800">Je suis là pour vous aider</p>
+
+        <div class="mt-4">
+          <p class="text-3xl">Chiens de <span class="text-blue-700 font-bold">tous ages</span> (chiots, adultes, seniors) et de <span class="text-blue-700 font-bold"> races</span></p>
+        </div> 
+
       </div>
+
+      <section class="mt-12 bg-gray-100 text-left px-3 lg:px-16 py-12 rounded-t-3xl" id="methodes_education_cannine">
+          <h2 class="text-blue-500 text-5xl font-semibold text-center lg:text-left">Mes méthodes</h2>
+
+          <p class="text-lg mt-3 px-3 lg:px-0">Méthode <span class="font-semibold">positive non permissive</span>, basée sur la méthode <span class="font-semibold"><a href="https://educ-dog.com/welcome" target="_blank">Educ Dog</a></span>  qui a fait ses preuves sur des milliers de chiens quelque soit leur âge ,leur race , leur passé, leur caractère….</p>
+        
+          <p class="text-lg px-3 lg:px-0">Pas de violence ni d’outil coercitif, tout est basé sur la douceur, la compréhension, la complicité  et la bienveillance.</p>
+
+          <p class="text-center mt-10 text-3xl font-bold">3 piliers fondamentaux</p> 
+
+          <div class=" lg:grid lg:grid-cols-3 lg:mt-3  "> 
+            <div class="mt-8 lg:mt-0 p-0 lg:p-4  pb-2 bg-blue-500 text-white rounded-t-2xl lg:rounded-t-none">
+              <h3 class="font-bold text-2xl lg:text-3xl px-3 lg:px-0">Renforcement positif</h3>
+              <p class="text-lg mt-2 px-3 lg:px-0">Votre chien apprendra par <span class="font-semibold">plaisir</span>, il sera récompensé lorsqu’il se comportera bien et pourra associer que le bon comportement est agréable. Il saura alors comment agir et réagir</p>   
+            </div>
+            <img src="../assets/images/chien_jeu.jpg" />
+
+            <div class="mt-8 lg:mt-0 p-0 lg:p-4  pb-2  rounded-t-2xl lg:rounded-t-none bg-yellow-500 text-white">
+              <h3 class="font-bold text-2xl lg:text-3xl px-3 lg:px-0">Hiérarchie</h3>
+              <p class="text-lg mt-2 px-3 lg:px-0">En aucun cas il s’agira de dominer mais simplement de mettre en place des règles de vie, des limites, bref un cadre qui permettra de diriger <span class="font-semibold">en douceur</span> et vivre en harmonie avec votre chien.</p>
+            </div>
+            
+            <img src="../assets/images/chien_complicite.png" class="mt-3 lg:mt-0 hidden lg:block" />
+            <img src="../assets/images/chien_regle.png" class="block lg:hidden" />
+
+            <div class="mt-8 lg:mt-0 p-0 lg:p-3 pb-2 lg:pb-0  rounded-t-2xl lg:rounded-t-none  bg-red-500 text-white">
+              <h3 class="font-bold text-2xl lg:text-3xl px-3 ">Psychologie canine</h3>
+              <p class="text-lg mt-6 px-4  text-justify">Partager une relation pleine de <span class="font-semibold">complicité</span>, mieux communiquer, permettront de mieux se comprendre, de prévoir les réactions et les comportements. Les Instincts du chien et motivations seront utilisés pour l'apprentissage</p>
+            </div>
+
+            <img src="../assets/images/chien_regle.png" class="mt-3 lg:mt-0 hidden lg:block" />
+            <img src="../assets/images/chien_complicite.png" class="block lg:hidden" />
+
+
+
+          </div>
+          <!-- <div class="mt-10 lg:flex">
+            <div class="self-center">
+              <h3 class="font-bold text-2xl px-3 lg:px-0">Renforcement positif :</h3>
+              <p class="text-lg mt-2 px-3 lg:px-0">Votre chien apprendra par <span class="font-semibold">plaisir</span>, il sera récompensé lorsqu’il se comportera bien et pourra associer que le bon comportement est agréable. Il saura alors comment agir et réagir</p>
+            </div>
+
+            <img src="../assets/images/dog_pilar_1.jpg" style="width:400px" class="mt-3 lg:mt-0 rounded-2xl ml-12" />
+          </div>
+
+          <div class="mt-10 lg:flex">
+            <div class="self-center">
+              <h3 class="font-bold text-2xl px-3 lg:px-0">Hiérarchie  :</h3>
+              <p class="text-lg mt-2 px-3 lg:px-0">En aucun cas il s’agira de dominer mais simplement de mettre en place des règles de vie, des limites, bref un cadre qui permettra de diriger <span class="font-semibold">en douceur</span> et vivre en harmonie avec votre chien.</p>
+            </div>
+
+            <img src="../assets/images/dog_pilar_1.jpg" class="mt-3 lg:mt-0 w-64 rounded-2xl ml-12" />
+          </div>
+
+          <div class="mt-10 lg:flex">
+            <div class="self-center">
+              <h3 class="font-bold text-2xl px-3 lg:px-0">Psychologie canine :</h3>
+              <p class="text-lg mt-2 px-3 lg:px-0">En aucun cas il s’agira de dominer mais simplement de mettre en place des règles de vie, des limites, bref un cadre qui permettra de diriger <span class="font-semibold">en douceur</span> et vivre en harmonie avec votre chien.</p>
+            </div>
+
+            <img src="../assets/images/dog_pilar_1.jpg" class="mt-3 lg:mt-0 w-64 rounded-2xl ml-12" />
+          </div> -->
+        </section>
+
+        <section class="mt-3 px-3 py-3 lg:px-16" id="comprendre votre chien">
+          <p class="text-xl"><span class="font-semibold">COMPRENDRE</span> votre chien et l’éduquer sans violence,  sans s'énerver ni crier</p>
+          <p class="text-xl"><span class="font-semibold">TRAVAILLER</span> avec une éducatrice-comportementaliste canin  à votre écoute</p>
+          <p class="text-xl"><span class="font-semibold">S’ADAPTER</span> à votre chien chien et à vos besoins</p>
+          <p class="text-xl"><span class="font-semibold">AIDER</span> et non juger</p>
+
+        </section>
   </div>
 </template>
 
@@ -127,7 +203,9 @@ export default {}
 }
 */
 html {
-  font-family: "Montserrat"
+  font-family: "Montserrat";
+  color: "#2d3748"
+  
 }
 .container {
   margin: 0 auto;
