@@ -180,11 +180,44 @@
           </div> -->
         </section>
 
-        <section class="mt-3 px-3 py-3 lg:px-16" id="comprendre votre chien">
+        <section class="mt-3 px-3 py-3 lg:px-16 text-center" id="comprendre votre chien">
           <p class="text-xl"><span class="font-semibold">COMPRENDRE</span> votre chien et l’éduquer sans violence,  sans s'énerver ni crier</p>
           <p class="text-xl"><span class="font-semibold">TRAVAILLER</span> avec une éducatrice-comportementaliste canin  à votre écoute</p>
           <p class="text-xl"><span class="font-semibold">S’ADAPTER</span> à votre chien chien et à vos besoins</p>
           <p class="text-xl"><span class="font-semibold">AIDER</span> et non juger</p>
+        </section>
+
+        <section class="bg-gray-200 mt-6 px-3 py-4 lg:px-16" id="fonctionnement">
+            <h3 class="font-bold text-center text-3xl">Fonctionnement</h3>
+            
+            <div class="bg-white flex p-4 rounded-2xl lg:mx-12 mt-3">
+              <img src="../assets/images/exam.svg" alt="chien fonctionnement" class="h-12 w-12 self-center mr-4 hidden lg:block" />
+
+              <div>
+                <div class="flex">
+                  <div class="bg-blue-400 text-white rounded-full px-2 font-semibold mr-2 inline-block h-5">1</div>
+                  <p class="font-semibold text-lg">Etude de Comportement</p>
+                </div>
+
+                <p class="text-justify mt-2 text-lg">Questionnaire permettant de comprendre votre chien, son mode de fonctionnement et le vôtre.</p>
+              </div>
+              
+            </div>
+
+            <div class="bg-white flex p-4 rounded-2xl lg:mx-12 mt-3">
+              <img src="../assets/images/chien.svg" alt="chien fonctionnement" class="h-12 w-12 self-center mr-4 hidden lg:block" />
+
+              <div>
+                <div class="flex">
+                  <p class="bg-blue-400 text-white rounded-full px-2 font-semibold mr-2 h-5">2</p>
+                  <p class="font-semibold text-lg">Mise en place d'un programme personnalisé</p>
+                </div>
+
+                <p class="text-justify mt-2 text-lg">J'interviens à votre domicile ou en extérieur et m'adapte à chaque individu. Grâce à un coaching personnalisé, je vous accompagnerai  jusqu'à la prise d'autonomie</p>
+              </div> 
+            </div>
+
+            <p class="text-justify mt-5 text-lg mx-3 lg:mx-0">Avec <span class="font-semibold">TON CHIEN ET TOI</span>,  vous apprendrez à comprendre votre chien et pourrez travailler avec lui pour parfaire son éducation. Vous comprendrez sa psychologie, vous pourrez alors lui offrir la vie qu'il mérite pleine de complicité de bons moments et d’harmonie.</p>
 
         </section>
   </div>
