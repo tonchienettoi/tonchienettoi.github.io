@@ -1,5 +1,5 @@
 <template>
-  <div class="my-20 lg:my-0">
+  <div class="bg-gray-200">
     <div class="shadow p-2 hidden lg:flex">
 
     <img
@@ -33,7 +33,87 @@
     </ul>
     </div>
 
-    <div class="w-full lg:flex -mt-12 lg:mt-0  lg:mt-16 px-6 lg:px-20">
+    <div class="relative z-0 bg-gray-200">
+      <img
+              src="../assets/images/first_mobile.png"
+              class="self-center w-full md:hidden"/>
+     <img
+              src="../assets/images/first.png"
+              class="self-center w-full hidden md:block"/>
+
+      <div class="absolute top-0 mt-16 lg:mt-24 ml-8">
+        <div class="flex">
+          <div class="bg-blue-400 w-8 h-1 self-center mr-3"/>
+          <p class=" text-2xl lg:text-3xl text-gray-200 font-semibold">Ton chien et toi </p>
+        </div>
+        <h1 class="text-4xl lg:text-5xl text-gray-200 font-semibold">Education canine <br/> Troubles du comportement</h1>
+        
+        <div class="bg-blue-400 hover:bg-blue-600 cursor-pointer mt-6 lg:mt-2 flex inline-flex p-3 rounded-lg">
+          <p class="font-semibold text-white self-center mr-2">Mes services</p>
+
+          <img src="../assets/images/golden_dog.svg" class="w-10 bg-blue-500 p-2 rounded-lg"/>
+
+        </div>
+      </div>
+
+      <section class=" z-50 lg:grid px-2 lg:px-4 lg:grid-cols-3 lg:gap-10  mt-4 lg:-mt-16" id="education canine services">
+        <div class="bg-white flex px-2 py-3 rounded-xl">
+          <img src="../assets/images/dog_play.svg" alt="chien joue" class="w-16 h-16 self-center mr-3 bg-blue-200 p-2 rounded-full"/>
+          <div>
+            <p class="text-blue-500 text-lg font-semibold mb-2">Éducation</p>
+            <p class="text-justify">Etre conseillé pour réussir son intégration au sein de la famille</p>
+
+          </div>
+        </div>
+
+        <div class="bg-white flex px-2 py-3 rounded-xl mt-4 lg:mt-0">
+          <img src="../assets/images/dog_comportement.svg" alt="chien comportement" class="w-16 h-16 self-center mr-3 bg-blue-200 p-2 rounded-full"/>
+          <div>
+            <p class="text-blue-500 text-lg font-semibold mb-2">Trouble du comportement</p>
+            <p class="text-justify">Ton chien et toi s'adapte à chaque chien et ses troubles ainsi qu’ à vos besoins.</p>
+
+          </div>
+        </div>
+
+        <div class="bg-white flex px-2 py-3 rounded-xl mt-4 lg:mt-0">
+          <img src="../assets/images/dog_educ.svg" alt="chien education" class="w-16 h-16 self-center mr-3 bg-blue-200 p-2 rounded-full"/>
+          <div>
+            <p class="text-blue-500 text-lg font-semibold mb-2">Balade</p>
+            <p class="">Dépense physique et amusement</p>
+
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section id="methodes" class="relative lg:flex items-center px-4 mt-10">
+      <img
+          src="../assets/images/chien_toutes_races.jpg"
+          class="self-center rounded-2xl"
+          style="width: 350px"/>
+
+      <div class="absolute hidden lg:flex bg-blue-500 rounded-xl ml-64 my-auto self-center object-center p-3 w-64">
+        <img
+          src="../assets/images/corgi.svg"
+          class="self-center rounded-full w-12 h-12 p-2 bg-blue-100 mr-5 "
+          />
+        <p class="text-white text-lg ">Chiens de toutes races et de tout âge</p>
+      </div>
+      <div class="lg:mx-48 w-full mt-4 lg:mt-0">
+        <div class="flex">
+          <div class="bg-blue-400 w-10 h-1 self-center mr-6"></div>
+          <p class="text-blue-500 font-semibold text-xl">Ma méthode</p>
+          <div class="bg-blue-400 w-10 h-1 self-center ml-6"></div>
+        </div>
+        <p class="text-5xl font-semibold mt-3 text-blue-700">Méthode positive non permissive</p>
+      
+        <p class="mt-3 text-justify">Basée sur la méthode Educ Dog  qui a fait ses preuves sur des milliers de chiens quelque soit leur âge, leur race, leur passé, leur caractère… </p>
+
+      
+      </div>
+    </section>
+
+    <div class="w-full lg:flex mt-12 lg:mt-0  lg:mt-16 px-6 lg:px-20">
       <div class="mx-auto w-full lg:w-2/3 pb-4 text-center lg:text-left">
         <h1 class="text-gray-800 font-bold text-6xl mx-auto inline-block leading-none">Anne <br/> Blauwart</h1>
         <h2 class="text-gray-800 font-medium mt-6 text-3xl">Education cannine <br/> Troubles du comportement </h2>
