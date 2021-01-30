@@ -100,7 +100,7 @@
         <p class="text-white text-lg ">Chiens de toutes races et de tout âge</p>
       </div>
       <div class="lg:mx-48 w-full mt-4 lg:mt-0">
-        <div class="flex">
+        <div class="inline-flex mx-auto">
           <div class="bg-blue-400 w-10 h-1 self-center mr-6"></div>
           <p class="text-blue-500 font-semibold text-xl">Ma méthode</p>
           <div class="bg-blue-400 w-10 h-1 self-center ml-6"></div>
@@ -113,7 +113,175 @@
       </div>
     </section>
 
-    <div class="w-full lg:flex mt-12 lg:mt-0  lg:mt-16 px-6 lg:px-20">
+    <p class="text-center mt-10 mx-3 text-3xl font-bold">3 piliers fondamentaux</p> 
+
+    <div class=" lg:grid lg:grid-cols-3 lg:mt-3 mx-4 lg:mx-20  "> 
+      <div class="mt-8 lg:mt-0 p-0 lg:p-4  pb-2 bg-blue-500 text-white rounded-t-2xl lg:rounded-t-none">
+        <h3 class="font-bold text-2xl lg:text-3xl px-3 lg:px-0">Renforcement positif</h3>
+        <p class="text-lg mt-2 px-3 lg:px-0">Votre chien apprendra par <span class="font-semibold">plaisir</span>, il sera récompensé lorsqu’il se comportera bien et pourra associer que le bon comportement est agréable. Il saura alors comment agir et réagir</p>   
+      </div>
+      <img src="../assets/images/chien_jeu.jpg" />
+
+      <div class="mt-8 lg:mt-0 p-0 lg:p-4  pb-2  rounded-t-2xl lg:rounded-t-none bg-yellow-500 text-white">
+        <h3 class="font-bold text-2xl lg:text-3xl px-3 lg:px-0">Hiérarchie</h3>
+        <p class="text-lg mt-2 px-3 lg:px-0">En aucun cas il s’agira de dominer mais simplement de mettre en place des règles de vie, des limites, bref un cadre qui permettra de diriger <span class="font-semibold">en douceur</span> et vivre en harmonie avec votre chien.</p>
+      </div>
+      
+      <img src="../assets/images/chien_complicite.jpg" class="mt-3 lg:mt-0 hidden lg:block" />
+      <img src="../assets/images/chien_regle.png" class="block lg:hidden" />
+
+      <div class="mt-8 lg:mt-0 p-0 lg:p-3 pb-2 lg:pb-0  rounded-t-2xl lg:rounded-t-none  bg-red-500 text-white">
+        <h3 class="font-bold text-2xl lg:text-3xl px-3 ">Psychologie canine</h3>
+        <p class="text-lg mt-6 px-4  text-justify">Partager une relation pleine de <span class="font-semibold">complicité</span>, mieux communiquer, permettront de mieux se comprendre, de prévoir les réactions et les comportements. Les Instincts du chien et motivations seront utilisés pour l'apprentissage</p>
+      </div>
+
+      <img src="../assets/images/chien_regle.png" class="mt-3 lg:mt-0 hidden lg:block" />
+      <img src="../assets/images/chien_complicite.jpg" class="block lg:hidden" />
+
+    </div>
+
+    <div id="education canine fonctionnement" class="w-full">
+
+      <div class="w-full flex mt-8">
+        <div class="inline-flex mx-auto self-center">
+          <div class="bg-blue-700 h-1 w-8 lg:w-12 mr-3 self-center"></div>
+          <h2 class="font-semibold text-3xl text-blue-700">Fonctionnement</h2>
+          <div class="bg-blue-700 h-1 w-8 lg:w-12 ml-3 self-center"></div>
+        </div>
+      </div>
+
+      <div class="lg:grid lg:grid-cols-2 lg:gap-10 px-4 lg:px-0 lg:w-2/3 mx-auto mt-3">
+        
+        <div class="bg-white rounded-2xl">
+          
+          <img src="../assets/images/etude_comportement.jpg" class="w-full rounded-t-2xl" />
+
+          <div class="flex p-3 ">
+            <img src="../assets/images/exam.svg" class="w-12 mr-3" />
+            
+            <div >
+              <p class="text-lg text-blue-500 font-semibold">Étude de comportement</p>
+              <p class=" text-gray-900">Questionnaire permettant de comprendre votre chien, son mode de fonctionnement et le vôtre.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="bg-white rounded-2xl mt-6 lg:mt-0">
+          
+          <img src="../assets/images/programme.jpg" class="w-full rounded-t-2xl" />
+
+          <div class="flex p-3">
+            <img src="../assets/images/chien.svg" class="w-12 mr-3 " />
+            
+            <div class=" rounded-b-2xl">
+              <p class="text-lg text-blue-500 font-semibold">Mise en place d'un programme</p>
+              <p>Grâce à un coaching personnalisé, je vous accompagnerai jusqu'à la prise d'autonomie</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="education canine objectif" class="w-full">
+
+      <div class="w-full flex mt-8">
+        <div class="inline-flex mx-auto self-center">
+          <div class="bg-blue-700 h-1 w-8 lg:w-12 mr-3 self-center"></div>
+          <h2 class="font-semibold text-3xl text-blue-700">Objectifs</h2>
+          <div class="bg-blue-700 h-1 w-8 lg:w-12 ml-3 self-center"></div>
+        </div>
+      </div>
+      <div class="lg:grid lg:grid-cols-3 lg:gap-4 mt-3  px-4 lg:px-10">
+
+        <div>
+          <div class="flex">
+            <img src="../assets/images/harmony.svg" class="w-10 mr-2 " />
+            <p class="to-gray-900 font-semibold self-center text-lg">Harmonie</p>
+          </div>
+          <p class="ml-12 -mt-1">Todo</p>
+        </div>
+
+        <div>
+          <div class="flex">
+            <img src="../assets/images/complicity.svg" class="w-10 mr-2 " />
+            <p class="to-gray-900 font-semibold self-center text-lg">Complicité</p>
+          </div>
+          <p class="ml-12 -mt-1">Faire de votre chien votre meilleur ami</p>
+        </div>
+        
+        <div>
+          <div class="flex">
+            <img src="../assets/images/confiance.svg" class="w-10 mr-2 " />
+            <p class="to-gray-900 font-semibold self-center text-lg">Confiance</p>
+          </div>
+          <p class="ml-12 -mt-1">Construire une relation basée sur la confiance</p>
+        </div>
+
+      </div>
+
+      <div class="bg-white mx-4 lg:mx-10 lg:pr-6 lg:flex rounded-2xl mt-3">
+        <img src="../assets/images/chien_bisous.jpg" class=" w-full lg:block lg:w-1/4 lg:mr-6 rounded-t-2xl lg:rounded-t-none lg:rounded-l-2xl " />
+        <div class="self-center p-3 lg:p-0">
+          <p class="font-semibold text-lg text-gray-900 text-center lg:text-left">Chiens et maîtres bien dans leurs papattes</p>
+          <p class="text-gray-900 mt-2">Apprendre à traduire les messages canins pour comprendre pourquoi il fait des bêtises, pourquoi il n’obéit pas, pourquoi il a développé des troubles du comportement Vous saurez alors comment y remédier !</p>
+        </div>
+      </div>
+
+      <div class="bg-white mx-4 lg:mx-10 lg:pr-6 lg:flex rounded-2xl mt-8">
+        <img src="../assets/images/chien_sauver.jpg" class=" w-full lg:block lg:w-1/4 lg:mr-6 rounded-t-2xl lg:rounded-t-none lg:rounded-l-2xl " />
+        <div class="self-center p-3 lg:p-0">
+          <p class="font-semibold text-lg text-gray-900 text-center lg:text-left">Combat pour sauver les chiens</p>
+          <p class="text-gray-900 mt-2">Les sauver de l'abandon, de la maltraitance et de l'euthanasie, en formant les maitres. Ils n’ont pas toujours le bon « mode d’emploi » et se retrouvent parfois totalement démunis face à certains comportements et choisissent malheureusement des solutions radicales (abandon, maltraitance et même euthanasie) </p>
+        </div>
+      </div>
+    </div>
+
+    <section id="contact" class="lg:flex mx-10 mt-12">
+      <div class="self-center">
+        <p class="text-4xl text-blue-700 text-center lg:text-left">Envie de partager de supers moments avec votre ami à 4 pattes ? <br/>Alors faites appel à <span class="font-bold">ton chien et toi</span></p>
+          <a 
+          class="font-bold text-5xl text-blue-700 mt-5"
+          href="tel:+33660680696">0660680696</a>
+      </div>
+      <img
+          src="../assets/images/anne.jpg"
+          class="mx-auto lg:ml-auto lg:mr-0 self-center"
+          style="height:350px"/>
+    </section>
+
+    <section id="horraire" class="mx-10 mt-5">
+      <div class="flex">  
+        <img
+          src="../assets/images/calendar.svg"
+          class="w-12 h-12"/>
+        <p class="text-2xl ml-5 self-center">A votre écoute du lundi au samedi de 9h à 19h</p>
+      </div>
+
+      <div class="flex mt-4">  
+        <img
+          src="../assets/images/house.svg"
+          class="w-12 h-12"/>
+        <p class="text-2xl ml-5 self-center">Séances à domicile (sur RDV)</p>
+      </div>
+
+      <div class="flex mt-4">  
+        <img
+          src="../assets/images/map.svg"
+          class="w-12 h-12"/>
+        <p class="text-2xl ml-5 self-center">De Grenoble  à Chambéry, vallée du Grésivaudan</p>
+      </div>
+    </section>
+
+  <section id="footer" class="lg:grid lg:grid-cols-3 lg:gap-10 border-t-2 mt-20 pt-5 px-3">
+    <p>© {{year }} Ton chien et toi</p>
+    <p>Fait avec  ❤  dans les Alpes 🏔</p>
+  </section>
+   
+<!--    
+   
+     <div class="w-full lg:flex mt-12 lg:mt-0  lg:mt-16 px-6 lg:px-20">
       <div class="mx-auto w-full lg:w-2/3 pb-4 text-center lg:text-left">
         <h1 class="text-gray-800 font-bold text-6xl mx-auto inline-block leading-none">Anne <br/> Blauwart</h1>
         <h2 class="text-gray-800 font-medium mt-6 text-3xl">Education cannine <br/> Troubles du comportement </h2>
@@ -204,35 +372,11 @@
         
           <p class="text-lg px-3 lg:px-0">Pas de violence ni d’outil coercitif, tout est basé sur la douceur, la compréhension, la complicité  et la bienveillance.</p>
 
-          <p class="text-center mt-10 text-3xl font-bold">3 piliers fondamentaux</p> 
-
-          <div class=" lg:grid lg:grid-cols-3 lg:mt-3  "> 
-            <div class="mt-8 lg:mt-0 p-0 lg:p-4  pb-2 bg-blue-500 text-white rounded-t-2xl lg:rounded-t-none">
-              <h3 class="font-bold text-2xl lg:text-3xl px-3 lg:px-0">Renforcement positif</h3>
-              <p class="text-lg mt-2 px-3 lg:px-0">Votre chien apprendra par <span class="font-semibold">plaisir</span>, il sera récompensé lorsqu’il se comportera bien et pourra associer que le bon comportement est agréable. Il saura alors comment agir et réagir</p>   
-            </div>
-            <img src="../assets/images/chien_jeu.jpg" />
-
-            <div class="mt-8 lg:mt-0 p-0 lg:p-4  pb-2  rounded-t-2xl lg:rounded-t-none bg-yellow-500 text-white">
-              <h3 class="font-bold text-2xl lg:text-3xl px-3 lg:px-0">Hiérarchie</h3>
-              <p class="text-lg mt-2 px-3 lg:px-0">En aucun cas il s’agira de dominer mais simplement de mettre en place des règles de vie, des limites, bref un cadre qui permettra de diriger <span class="font-semibold">en douceur</span> et vivre en harmonie avec votre chien.</p>
-            </div>
-            
-            <img src="../assets/images/chien_complicite.png" class="mt-3 lg:mt-0 hidden lg:block" />
-            <img src="../assets/images/chien_regle.png" class="block lg:hidden" />
-
-            <div class="mt-8 lg:mt-0 p-0 lg:p-3 pb-2 lg:pb-0  rounded-t-2xl lg:rounded-t-none  bg-red-500 text-white">
-              <h3 class="font-bold text-2xl lg:text-3xl px-3 ">Psychologie canine</h3>
-              <p class="text-lg mt-6 px-4  text-justify">Partager une relation pleine de <span class="font-semibold">complicité</span>, mieux communiquer, permettront de mieux se comprendre, de prévoir les réactions et les comportements. Les Instincts du chien et motivations seront utilisés pour l'apprentissage</p>
-            </div>
-
-            <img src="../assets/images/chien_regle.png" class="mt-3 lg:mt-0 hidden lg:block" />
-            <img src="../assets/images/chien_complicite.png" class="block lg:hidden" />
-
-
-
-          </div>
-          <!-- <div class="mt-10 lg:flex">
+         
+         
+         
+          
+           <div class="mt-10 lg:flex">
             <div class="self-center">
               <h3 class="font-bold text-2xl px-3 lg:px-0">Renforcement positif :</h3>
               <p class="text-lg mt-2 px-3 lg:px-0">Votre chien apprendra par <span class="font-semibold">plaisir</span>, il sera récompensé lorsqu’il se comportera bien et pourra associer que le bon comportement est agréable. Il saura alors comment agir et réagir</p>
@@ -257,7 +401,7 @@
             </div>
 
             <img src="../assets/images/dog_pilar_1.jpg" class="mt-3 lg:mt-0 w-64 rounded-2xl ml-12" />
-          </div> -->
+          </div>
         </section>
 
         <section class="mt-3 px-3 py-3 lg:px-16 text-center" id="comprendre votre chien">
@@ -299,12 +443,26 @@
 
             <p class="text-justify mt-5 text-lg mx-3 lg:mx-0">Avec <span class="font-semibold">TON CHIEN ET TOI</span>,  vous apprendrez à comprendre votre chien et pourrez travailler avec lui pour parfaire son éducation. Vous comprendrez sa psychologie, vous pourrez alors lui offrir la vie qu'il mérite pleine de complicité de bons moments et d’harmonie.</p>
 
-        </section>
+        </section> -->
+        <div class="text-xs mt-3">Icons made by <a href="https://www.flaticon.com/authors/vitaly-gorbachev" title="Vitaly Gorbachev">Vitaly Gorbachev</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        <div class="text-xs">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
   </div>
+
 </template>
 
 <script>
-export default {}
+export default {
+
+  data(){
+    return {
+      year : 2021
+    }
+  },
+  mounted(){
+    var d = new Date()
+    this.year = d.getFullYear()
+  }
+}
 </script>
 
 <style>
