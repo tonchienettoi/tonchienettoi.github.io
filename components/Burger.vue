@@ -1,55 +1,24 @@
 <template>
     <Slide
-        :closeOnNavigation="true"
         
         right
         class="fixed z-20 block lg:hidden">
-      
-     
-        <NuxtLink 
-            class="self-center "
-            to="/education"
-            v-if="page != 'education'">
-          Éducation
-        </NuxtLink>
-        <p class="font-bold text-blue-700 self-center" v-if="page == 'education'">Éducation</p>
+      <a id="home" href="/">
+        <span>Accueil</span>
+      </a>
+       <a id="Education" href="/education">
+        <span>Education</span>
+      </a>
+       <a id="comportment" href="/comportement">
+        <span>Troubles du comportements</span>
+      </a>
+       <a id="balades" href="/balades">
+        <span>Promenades</span>
+      </a>
+       <a id="about" href="/about">
+        <span>A propos de moi</span>
+      </a>
 
-        <li>
-            <NuxtLink 
-                class="self-center "
-                to="/comportement"
-                v-if="page != 'comportement'">
-            Troubles du comportement
-            </NuxtLink>
-            <p class="font-bold text-blue-700 self-center" v-if="page == 'comportement'">Troubles du comportement</p>     
-        </li>
-
-        <li>
-            <NuxtLink 
-                class="self-center "
-                to="/balade"
-                v-if="page != 'balade'">
-            Promenades
-            </NuxtLink>
-            <p class="font-bold text-blue-700 self-center" v-if="page == 'balade'">Promenades</p>     
-        </li>
-
-      <li>
-        <NuxtLink 
-            class="self-center "
-            to="/about"
-            v-if="page != 'about'">
-            À propos de moi
-        </NuxtLink>
-        <p class="font-bold text-blue-700 self-center" v-if="page == 'about'"> À propos de moi</p>     
-      </li>
-
-      <li>
-        <div class="bg-blue-400 p-2 rounded-full font-semibold cursor-pointer hover:bg-blue-600 text-white">
-          Me contacter
-        </div>
-      </li>
-    </ul>
     </Slide>
 </template>
 <script>
