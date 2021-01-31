@@ -12,7 +12,7 @@
        <a id="comportment" href="/comportement">
         <span>Troubles du comportements</span>
       </a>
-       <a id="balades" href="/balades">
+       <a id="balades" href="/balade">
         <span>Promenades</span>
       </a>
        <a id="about" href="/about">
