@@ -1,50 +1,24 @@
 <template>
-  <div class="bg-gray-200">
-    <div class="shadow p-2 hidden lg:flex">
+  <div class="bg-white relative" id="app">
+    
+    <burger
+     ></burger>
+    <nav-bar
+      :page="'index'"></nav-bar>
 
-    <img
-      src="../assets/images/logo.svg"
-      class="w-10 h-10"/>  
-
-      <p class="font-semibold self-center text-gray-800 ml-2">Ton chien et toi</p> 
-
-    <ul class="list-reset flex justify-between flex-1 items-center mx-10">
-      <li>
-        <a>
-          Éducation
-        </a>
-      </li>
-
-      <li>
-        <a>Troubles du comportement</a>
-      </li>
-
-      <li>
-        <a>
-          A propos de moi
-        </a>
-      </li>
-
-      <li>
-        <div class="bg-blue-400 p-2 rounded-full font-semibold cursor-pointer hover:bg-blue-600 text-white">
-          Me contacter
-        </div>
-      </li>
-    </ul>
-    </div>
-
-    <div class="relative z-0 bg-gray-200">
+    <div class="relative z-0 bg-white">
       <img
-              src="../assets/images/first_mobile.png"
+              src="../assets/images/first_mobile.jpg"
               class="self-center w-full md:hidden"/>
      <img
-              src="../assets/images/first.png"
+              src="../assets/images/first.jpg"
               class="self-center w-full hidden md:block"/>
 
       <div class="absolute top-0 mt-16 lg:mt-24 ml-8">
         <div class="flex">
           <div class="bg-blue-400 w-8 h-1 self-center mr-3"/>
-          <p class=" text-2xl lg:text-3xl text-gray-200 font-semibold">Ton chien et toi </p>
+          <img class="h-10 self-center  object-contain" src="../assets/images/name_white.png"/> 
+
         </div>
         <h1 class="text-4xl lg:text-5xl text-gray-200 font-semibold">Education canine <br/> Troubles du comportement</h1>
         
@@ -57,31 +31,37 @@
       </div>
 
       <section class=" z-50 lg:grid px-2 lg:px-4 lg:grid-cols-3 lg:gap-10  mt-4 lg:-mt-16" id="education canine services">
-        <div class="bg-white flex px-2 py-3 rounded-xl">
-          <img src="../assets/images/dog_play.svg" alt="chien joue" class="w-16 h-16 self-center mr-3 bg-blue-200 p-2 rounded-full"/>
-          <div>
-            <p class="text-blue-500 text-lg font-semibold mb-2">Éducation</p>
-            <p class="text-justify">Etre conseillé pour réussir son intégration au sein de la famille</p>
+        <div class="bg-white shadow lg:shadow-lg hover:bg-blue-100 flex px-2 py-3 rounded-xl">
+          <NuxtLink to="/education" class="flex">
+            <img src="../assets/images/dog_play.svg" alt="chien joue" class="w-16 h-16 self-center mr-3 bg-blue-200 p-2 rounded-full"/>
+            <div>
+              <p class="text-blue-500 text-lg font-semibold mb-2">Éducation</p>
+              <p class="text-justify">Etre conseillé pour réussir son intégration au sein de la famille</p>
 
-          </div>
+            </div>
+          </NuxtLink>
+        </div>
+        <div class="bg-white shadow lg:shadow-lg hover:bg-blue-100 flex px-2 py-3 rounded-xl mt-4 lg:mt-0">
+          <NuxtLink to="/comportement" class="flex">
+            <img src="../assets/images/dog_comportement.svg" alt="chien comportement" class="w-16 h-16 self-center mr-3 bg-blue-200 p-2 rounded-full"/>
+            <div>
+              <p class="text-blue-500 text-lg font-semibold mb-2">Trouble du comportement</p>
+              <p class="text-justify">Ton chien et toi s'adapte à chaque chien et ses troubles ainsi qu’ à vos besoins.</p>
+
+            </div>
+          </NuxtLink>
         </div>
 
-        <div class="bg-white flex px-2 py-3 rounded-xl mt-4 lg:mt-0">
-          <img src="../assets/images/dog_comportement.svg" alt="chien comportement" class="w-16 h-16 self-center mr-3 bg-blue-200 p-2 rounded-full"/>
-          <div>
-            <p class="text-blue-500 text-lg font-semibold mb-2">Trouble du comportement</p>
-            <p class="text-justify">Ton chien et toi s'adapte à chaque chien et ses troubles ainsi qu’ à vos besoins.</p>
 
-          </div>
-        </div>
+        <div class="bg-white shadow lg:shadow-lg hover:bg-blue-100 flex px-2 py-3 rounded-xl mt-4 lg:mt-0">
+          <NuxtLink to="/balade" class="flex">
+            <img src="../assets/images/dog_educ.svg" alt="chien education" class="w-16 h-16 self-center mr-3 bg-blue-200 p-2 rounded-full"/>
+            <div>
+              <p class="text-blue-500 text-lg font-semibold mb-2">Balade</p>
+              <p class="">Dépense physique et amusement</p>
 
-        <div class="bg-white flex px-2 py-3 rounded-xl mt-4 lg:mt-0">
-          <img src="../assets/images/dog_educ.svg" alt="chien education" class="w-16 h-16 self-center mr-3 bg-blue-200 p-2 rounded-full"/>
-          <div>
-            <p class="text-blue-500 text-lg font-semibold mb-2">Balade</p>
-            <p class="">Dépense physique et amusement</p>
-
-          </div>
+            </div>
+          </NuxtLink>
         </div>
       </section>
     </div>
@@ -92,7 +72,7 @@
           class="self-center rounded-2xl"
           style="width: 350px"/>
 
-      <div class="absolute hidden lg:flex bg-blue-500 rounded-xl ml-64 my-auto self-center object-center p-3 w-64">
+      <div class="lg:absolute flex bg-blue-500 rounded-xl mt-4 lg:mt-0 mx-auto lg:ml-64 my-auto self-center object-center p-3 w-64">
         <img
           src="../assets/images/corgi.svg"
           class="self-center rounded-full w-12 h-12 p-2 bg-blue-100 mr-5 "
@@ -100,14 +80,16 @@
         <p class="text-white text-lg ">Chiens de toutes races et de tout âge</p>
       </div>
       <div class="lg:mx-48 w-full mt-4 lg:mt-0">
-        <div class="inline-flex mx-auto">
-          <div class="bg-blue-400 w-10 h-1 self-center mr-6"></div>
-          <p class="text-blue-500 font-semibold text-xl">Ma méthode</p>
-          <div class="bg-blue-400 w-10 h-1 self-center ml-6"></div>
+        <div class="w-full flex">
+          <div class="inline-flex mx-auto lg:mx-0">
+            <div class="bg-blue-400 w-10 h-1 self-center mr-6"></div>
+            <p class="text-blue-500 font-semibold text-xl">Ma méthode</p>
+            <div class="bg-blue-400 w-10 h-1 self-center ml-6"></div>
+          </div>
         </div>
         <p class="text-5xl font-semibold mt-3 text-blue-700">Méthode positive non permissive</p>
       
-        <p class="mt-3 text-justify">Basée sur la méthode Educ Dog  qui a fait ses preuves sur des milliers de chiens quelque soit leur âge, leur race, leur passé, leur caractère… </p>
+        <p class="mt-3 text-justify">Basée sur la méthode <span class="font-semibold"> <a href="https://educ-dog.com/">Educ Dog™</a></span>  qui a fait ses preuves sur des milliers de chiens quelque soit leur âge, leur race, leur passé, leur caractère… </p>
 
       
       </div>
@@ -152,7 +134,7 @@
 
       <div class="lg:grid lg:grid-cols-2 lg:gap-10 px-4 lg:px-0 lg:w-2/3 mx-auto mt-3">
         
-        <div class="bg-white rounded-2xl">
+        <div class="bg-white rounded-2xl shadow-md">
           
           <img src="../assets/images/etude_comportement.jpg" class="w-full rounded-t-2xl" />
 
@@ -167,7 +149,7 @@
 
         </div>
 
-        <div class="bg-white rounded-2xl mt-6 lg:mt-0">
+        <div class="bg-white rounded-2xl shadow-md mt-6 lg:mt-0">
           
           <img src="../assets/images/programme.jpg" class="w-full rounded-t-2xl" />
 
@@ -221,7 +203,7 @@
 
       </div>
 
-      <div class="bg-white mx-4 lg:mx-10 lg:pr-6 lg:flex rounded-2xl mt-3">
+      <div class="bg-white shadow mx-4 lg:mx-10 lg:pr-6 lg:flex rounded-2xl mt-3">
         <img src="../assets/images/chien_bisous.jpg" class=" w-full lg:block lg:w-1/4 lg:mr-6 rounded-t-2xl lg:rounded-t-none lg:rounded-l-2xl " />
         <div class="self-center p-3 lg:p-0">
           <p class="font-semibold text-lg text-gray-900 text-center lg:text-left">Chiens et maîtres bien dans leurs papattes</p>
@@ -229,7 +211,7 @@
         </div>
       </div>
 
-      <div class="bg-white mx-4 lg:mx-10 lg:pr-6 lg:flex rounded-2xl mt-8">
+      <div class="bg-white shadow mx-4 lg:mx-10 lg:pr-6 lg:flex rounded-2xl mt-8">
         <img src="../assets/images/chien_sauver.jpg" class=" w-full lg:block lg:w-1/4 lg:mr-6 rounded-t-2xl lg:rounded-t-none lg:rounded-l-2xl " />
         <div class="self-center p-3 lg:p-0">
           <p class="font-semibold text-lg text-gray-900 text-center lg:text-left">Combat pour sauver les chiens</p>
@@ -274,10 +256,7 @@
       </div>
     </section>
 
-  <section id="footer" class="lg:grid lg:grid-cols-3 lg:gap-10 border-t-2 mt-20 pt-5 px-3">
-    <p>© {{year }} Ton chien et toi</p>
-    <p>Fait avec  ❤  dans les Alpes 🏔</p>
-  </section>
+  <footer-site></footer-site>
    
 <!--    
    
@@ -444,26 +423,11 @@
             <p class="text-justify mt-5 text-lg mx-3 lg:mx-0">Avec <span class="font-semibold">TON CHIEN ET TOI</span>,  vous apprendrez à comprendre votre chien et pourrez travailler avec lui pour parfaire son éducation. Vous comprendrez sa psychologie, vous pourrez alors lui offrir la vie qu'il mérite pleine de complicité de bons moments et d’harmonie.</p>
 
         </section> -->
-        <div class="text-xs mt-3">Icons made by <a href="https://www.flaticon.com/authors/vitaly-gorbachev" title="Vitaly Gorbachev">Vitaly Gorbachev</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-        <div class="text-xs">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
   </div>
 
 </template>
 
-<script>
-export default {
 
-  data(){
-    return {
-      year : 2021
-    }
-  },
-  mounted(){
-    var d = new Date()
-    this.year = d.getFullYear()
-  }
-}
-</script>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700;800;900&display=swap');
