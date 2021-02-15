@@ -59,7 +59,7 @@
                     
                     <div >
                         <p class="text-xl text-blue-500 font-semibold">Il ne revient pas au rappel</p>
-                        <p class=" text-gray-900">Promener son chien sans laisse, sans le stress de savoir s’il va revenir au rappel. Le laisser courir et jouer sans être attaché</p>
+                        <p class=" text-gray-900">Promener son chien sans laisse, sans le stress de savoir s’il va revenir au rappel. Le laisser courir et jouer sans être attaché.</p>
                     </div>
                 </div>
 
@@ -85,7 +85,7 @@
 
         <div class="mt-6">
 
-            <p class="text-center  text-4xl text-blue-700">Rassurez-vous, il y'a des solutions ! </p> 
+            <p class="text-center  text-4xl text-blue-700">Rassurez-vous, il y a des solutions ! </p> 
             <p class="text-center text-4xl text-blue-700">Contactez <span class="font-bold"> Ton Chien et toi</span></p> 
               <a 
                 class="font-semibold  text-center w-full text-4xl text-blue-700 mt-5"

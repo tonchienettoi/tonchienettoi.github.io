@@ -26,7 +26,10 @@
          <img
             src="../assets/images/anne_educ_dog.png" class="w-full lg:w-1/3 mx-auto  mt-5"/>
         
-        <div class="flex mx-4 lg:mx-10 mt-10">
+        <a class="flex mx-4 lg:mx-10 mt-10 px-3 hover:bg-blue-100"
+        target="_blank"
+            href="https://draaf.auvergne-rhone-alpes.agriculture.gouv.fr/Certificat-de-Capacite-destine-a-l">
+           
            <img
             src="../assets/images/france.png" class=" w-12 lg:w-24 object-contain"/>
 
@@ -36,7 +39,7 @@
 
             </div>
          
-        </div>
+        </a>
         
         <footer-site></footer-site>
 

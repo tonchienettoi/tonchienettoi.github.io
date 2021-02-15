@@ -22,12 +22,6 @@
         </div>
         <h1 class="text-4xl lg:text-5xl text-gray-200 font-semibold">Education canine <br/> Troubles du comportement</h1>
         
-        <div class="bg-blue-400 hover:bg-blue-600 cursor-pointer mt-6 lg:mt-2 flex inline-flex p-3 rounded-lg">
-          <p class="font-semibold text-white self-center mr-2">Mes services</p>
-
-          <img src="../assets/images/golden_dog.svg" class="w-10 bg-blue-500 p-2 rounded-lg"/>
-
-        </div>
       </div>
 
       <section class=" z-50 lg:grid px-2 lg:px-4 lg:grid-cols-3 lg:gap-10  mt-4 lg:-mt-16" id="education canine services">
@@ -89,7 +83,7 @@
         </div>
         <p class="text-5xl font-semibold mt-3 text-blue-700">Méthode positive non permissive</p>
       
-        <p class="mt-3 text-justify">Basée sur la méthode <span class="font-semibold"> <a href="https://educ-dog.com/">Educ Dog™</a></span>  qui a fait ses preuves sur des milliers de chiens quelque soit leur âge, leur race, leur passé, leur caractère… </p>
+        <p class="mt-3 text-justify">Basée sur la méthode <span class="font-semibold"> <a href="https://educ-dog.com/">Educ Dog™</a></span>. Celle-ci a fait ses preuves sur des milliers de chiens quelque soit leur âge, leur caractère, leur race et leur passé.</p>
 
       
       </div>
@@ -132,7 +126,7 @@
         </div>
       </div>
 
-      <div class="lg:grid lg:grid-cols-2 lg:gap-10 px-4 lg:px-0 lg:w-2/3 mx-auto mt-3">
+      <div class="lg:grid lg:grid-cols-3 lg:gap-6 px-4 lg:px-0  mx-10 mt-3">
         
         <div class="bg-white rounded-2xl shadow-md">
           
@@ -144,6 +138,21 @@
             <div >
               <p class="text-lg text-blue-500 font-semibold">Étude de comportement</p>
               <p class=" text-gray-900">Questionnaire permettant de comprendre votre chien, son mode de fonctionnement et le vôtre.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md">
+          
+          <img src="../assets/images/etude_comportement.jpg" class="w-full rounded-t-2xl" />
+
+          <div class="flex p-3 ">
+            <img src="../assets/images/exam.svg" class="w-12 mr-3" />
+            
+            <div >
+              <p class="text-lg text-blue-500 font-semibold">Séance première patte</p>
+              <p class=" text-gray-900">Explications sur les différentes règles de vie. Identification des problèmes rencontrés et proposition de solutions adaptées. Découverte d’une méthodologie de sanction du mauvais comportement.</p>
             </div>
           </div>
 
@@ -182,7 +191,7 @@
             <img src="../assets/images/harmony.svg" class="w-10 mr-2 " />
             <p class="to-gray-900 font-semibold self-center text-lg">Harmonie</p>
           </div>
-          <p class="ml-12 -mt-1">Todo</p>
+          <p class="ml-12 -mt-1">Pas de tracas au quotidien</p>
         </div>
 
         <div>
@@ -207,7 +216,7 @@
         <img src="../assets/images/chien_bisous.jpg" class=" w-full lg:block lg:w-1/4 lg:mr-6 rounded-t-2xl lg:rounded-t-none lg:rounded-l-2xl " />
         <div class="self-center p-3 lg:p-0">
           <p class="font-semibold text-lg text-gray-900 text-center lg:text-left">Chiens et maîtres bien dans leurs papattes</p>
-          <p class="text-gray-900 mt-2">Apprendre à traduire les messages canins pour comprendre pourquoi il fait des bêtises, pourquoi il n’obéit pas, pourquoi il a développé des troubles du comportement Vous saurez alors comment y remédier !</p>
+          <p class="text-gray-900 mt-2">Apprendre à traduire les messages canins pour comprendre pourquoi il fait des bêtises, pourquoi il n’obéit pas, pourquoi il a développé des troubles du comportement. Vous saurez alors comment y remédier !</p>
         </div>
       </div>
 
@@ -215,17 +224,17 @@
         <img src="../assets/images/chien_sauver.jpg" class=" w-full lg:block lg:w-1/4 lg:mr-6 rounded-t-2xl lg:rounded-t-none lg:rounded-l-2xl " />
         <div class="self-center p-3 lg:p-0">
           <p class="font-semibold text-lg text-gray-900 text-center lg:text-left">Combat pour sauver les chiens</p>
-          <p class="text-gray-900 mt-2">Les sauver de l'abandon, de la maltraitance et de l'euthanasie, en formant les maitres. Ils n’ont pas toujours le bon « mode d’emploi » et se retrouvent parfois totalement démunis face à certains comportements et choisissent malheureusement des solutions radicales (abandon, maltraitance et même euthanasie) </p>
+          <p class="text-gray-900 mt-2">Les sauver de l'abandon, de la maltraitance et de l'euthanasie, en formant les maîtres. Ils n’ont pas toujours le bon « mode d’emploi » et se retrouvent parfois totalement démunis face à certains comportements et choisissent malheureusement des solutions radicales</p>
         </div>
       </div>
     </div>
 
     <section id="contact" class="lg:flex mx-10 mt-12">
       <div class="self-center">
-        <p class="text-4xl text-blue-700 text-center lg:text-left">Envie de partager de supers moments avec votre ami à 4 pattes ? <br/>Alors faites appel à <span class="font-bold">ton chien et toi</span></p>
+        <p class="text-4xl text-blue-700 text-center lg:text-left mr-3">Envie de partager de super moments avec votre ami à 4 pattes ? <br/>Alors faites appel à <span class="font-bold">ton chien et toi</span></p>
           <a 
           class="font-bold text-5xl text-blue-700 mt-5"
-          href="tel:+33660680696">0660680696</a>
+          href="tel:+33660680696">06 60 68 06 96</a>
       </div>
       <img
           src="../assets/images/anne.jpg"

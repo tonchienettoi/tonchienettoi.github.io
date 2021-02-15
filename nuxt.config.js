@@ -10,14 +10,70 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'tonchienettoi.github.io',
+    title: 'Ton chien et toi',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'fr'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Educateur cannin, résolution de troubles de comportement (agréssivité, destruction ...) en Isère et Savoie' },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'Ton chien et toi',
+        },
+        {
+        hid: 'twitter:site',
+        name: 'twitter:site',
+        content: '@tonchienettoi',
+        },
+        {
+        hid: 'twitter:creator',
+        name: 'twitter:creator',
+        content: '@tonchienettoi',
+        },
+        {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: 'Éducatrice comportementalise canin',
+        },
+        {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content:'Educatrice cannin, résolution de troubles de comportement (agréssivité, destruction ...) en Isère et Savoie',
+        },
+        {
+        hid: 'og:image',
+        property: 'og:image',
+        content:
+        '/assets/images/anne_educ_dog.png',
+        },
+        {
+        hid: 'og:site_name',
+        name: 'og:site_name',
+        content: 'Ton chien et toi',
+        },
+        {
+        hid: 'og:type',
+        name: 'og:type',
+        content: 'website',
+        },
+        {
+        hid: 'og:url',
+        name: 'og:url',
+        content: 'https://tonchienettoi.github.io',
+        },
+        {
+        hid: 'og:title',
+        name: 'og:title',
+        content: 'Ton chien et toi',
+        },
+        {
+        hid: 'og:description',
+        name: 'og:description',
+        content:'Educatrice cannin, résolution de troubles de comportement (agréssivité, destruction ...) en Isère et Savoie'
+        }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -43,7 +99,11 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/sitemap'
   ],
+  sitemap: {
+    hostname: 'https://tonchienettoi.github.io',
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

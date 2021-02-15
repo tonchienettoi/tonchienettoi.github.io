@@ -62,9 +62,11 @@
       </li>
 
       <li>
+        <a  href="tel:+33660680696">
         <div class="bg-blue-400 p-2 rounded-full font-semibold cursor-pointer hover:bg-blue-600 text-white">
           Me contacter
         </div>
+        </a>
       </li>
     </ul>
     </div>

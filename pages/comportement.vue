@@ -3,14 +3,14 @@
         <burger></burger>
          <nav-bar
             :page="'comportement'"></nav-bar>
-        <h1 class="text-blue-700 font-semibold text-center text-4xl mt-8">Résolution de Troubles du Comportement</h1>
+        <h1 class="text-blue-700 font-semibold text-center text-4xl mt-8">Résolution des Troubles du Comportement</h1>
     
     
         <div class="lg:grid-cols-3 lg:grid lg:gap-6 px-5 mt-5">
             <div class="shadow-lg rounded-b-2xl pb-3 "> 
                 <p class="bg-blue-500 text-center text-white font-semibold rounded-t-2xl text-2xl">Destruction - Anxiété</p>
 
-                <p class="mt-2 px-3">Votre chien <span class="font-semibold">détruit</span>  en votre présence ainsi qu'en votre abscence ? Il est souvent  anxieux ? </p>
+                <p class="mt-2 px-3">Votre chien <span class="font-semibold">détruit</span>  en votre présence ainsi qu'en votre absence ? Il est souvent  anxieux ? </p>
             
             </div>
 
@@ -31,7 +31,7 @@
             <div class="shadow-lg rounded-b-2xl pb-3 mt-5 lg:mt-0"> 
                 <p class="bg-blue-500 text-center text-white font-semibold rounded-t-2xl text-2xl">Vols</p>
 
-                <p class="mt-2 px-3">Il vole de la nouriture ou vos affaires ? <br/> Vous aimeriez pouvoir lui faire confiance et le laisser seul dans la cuisine ?</p>
+                <p class="mt-2 px-3">Il vole de la nouriture ou vos affaires ? <br/> Vous aimeriez pouvoir lui faire confiance et le laisser seul ?</p>
             
             </div>
 
@@ -43,7 +43,7 @@
             </div>
 
             <div class="shadow-lg rounded-b-2xl pb-3 mt-5 lg:mt-0"> 
-                <p class="bg-blue-500 text-center text-white font-semibold rounded-t-2xl text-2xl">Fuge</p>
+                <p class="bg-blue-500 text-center text-white font-semibold rounded-t-2xl text-2xl">Fugue</p>
 
                 <p class="mt-2 px-3">Il <span class="font-semibold"> fugue</span> et vous ne savez pas quoi faire pour stopper cela ? Vous avez peur qu'il se perde et ne puisse pas retrouver le chemin de la maison ? </p>
             
@@ -72,8 +72,14 @@
 
         </div>
 
-        <p class="text-blue-700 font-semibold text-center text-4xl mt-8">Aucun cas n'est irrecupérable ! </p>
+        <p class="text-blue-700  text-center text-4xl mt-8">Aucun cas n'est irrecupérable ! </p>
 
+        <p class="text-blue-700  text-center text-4xl mt-3">il y a des solutions, contactez <span class="font-bold">Ton chien et toi</span></p>
+        <div class="flex">
+        <a 
+          class="font-bold  text-4xl text-blue-700 mt-3 mx-auto text-center"
+          href="tel:+33660680696">06 60 68 06 96</a>
+        </div>
         <footer-site></footer-site>
     </div>
 </template>
@@ -85,3 +91,30 @@ html {
   color: "#2d3748"
 }
 </style>
+<script>
+import { Splide, SplideSlide } from '@splidejs/vue-splide';
+import '@splidejs/splide/dist/css/themes/splide-default.min.css';
+
+export default {
+    components : {
+        Splide, SplideSlide
+    },
+
+    data() {
+        return {
+            options: {
+                type: 'loop',
+                rewind : true,
+                arrows: true,
+                autoplay: true,
+                margin:0   ,
+                	focus    : 'center',
+             
+	
+            },
+        }
+    }
+    
+    
+}
+</script>
