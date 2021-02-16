@@ -5,7 +5,7 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   router: {
-    base: '/tonchienettoi.github.io/'
+    base: ''
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -62,7 +62,7 @@ export default {
         {
         hid: 'og:url',
         name: 'og:url',
-        content: 'https://tonchienettoi.github.io',
+        content: 'https://tonchienettoi.fr',
         },
         {
         hid: 'og:title',
