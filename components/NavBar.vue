@@ -58,7 +58,7 @@
             v-if="page != 'about'">
             À propos de moi
         </NuxtLink>
-        <p class="font-bold text-blue-700 self-center" v-if="page == 'about'"> À propos de moi</p>     
+        <p class="font-bold text-blue-700 self-center" v-if="page == 'about'">À propos de moi</p>     
       </li>
 
       <li>

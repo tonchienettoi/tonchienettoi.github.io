@@ -143,16 +143,16 @@
 
         </div>
 
-        <div class="bg-white rounded-2xl shadow-md">
+        <div class="bg-white rounded-2xl shadow-md mt-6 lg:mt-0">
           
-          <img src="../assets/images/etude_comportement.jpg" class="w-full rounded-t-2xl" />
+          <img src="../assets/images/first_pattes.jpg" class="w-full rounded-t-2xl" />
 
           <div class="flex p-3 ">
-            <img src="../assets/images/exam.svg" class="w-12 mr-3" />
+            <img src="../assets/images/dog_play.svg" class="w-12 mr-3" />
             
             <div >
               <p class="text-lg text-blue-500 font-semibold">Séance première patte</p>
-              <p class=" text-gray-900">Explications sur les différentes règles de vie. Identification des problèmes rencontrés et proposition de solutions adaptées. Découverte d’une méthodologie de sanction du mauvais comportement.</p>
+              <p class=" text-gray-900">Explications sur les différentes règles de vie. Découverte d’une méthodologie de sanction du mauvais comportement.</p>
             </div>
           </div>
 
@@ -264,6 +264,26 @@
         <p class="text-2xl ml-5 self-center">De Grenoble  à Chambéry, vallée du Grésivaudan</p>
       </div>
     </section>
+
+    <div class="w-full flex mt-8">
+      <div class="inline-flex mx-auto self-center">
+        <div class="bg-blue-700 h-1 w-8 lg:w-12 mr-3 self-center"></div>
+        <h2 class="font-semibold text-3xl text-blue-700">Avis clients</h2>
+        <div class="bg-blue-700 h-1 w-8 lg:w-12 ml-3 self-center"></div>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-3 gap-4 px-3 lg:px-10">
+        <div class="bg-white shadow rounded-lg py-3 px-8">
+            
+            <p class="text-center text-lg font-semibold text-blue-700">Alison &amp; Roky</p>
+
+            <img
+              src="../assets/images/quotes.svg"
+              class="w-6 h-6 mx-auto my-2"/>
+            <p class="text-gray-600 italic text-center">Super merci ! La balade hier soir avec Roky était trés plaisante, il a été au top! Merci beaucoup je me sens plus sereine et Roky aussi.</p>
+        </div>
+    </div>
 
   <footer-site></footer-site>
    

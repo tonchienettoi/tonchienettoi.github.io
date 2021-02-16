@@ -24,7 +24,7 @@
         <p class="text-lg px-10 text-justify">Cette méthode a déjà été testée et approuvée sur des milliers de chiens</p>
 
          <img
-            src="../assets/images/anne_educ_dog.png" class="w-full lg:w-1/3 mx-auto  mt-5"/>
+            src="../assets/images/anne_educ_dog.jpg" class="w-full lg:w-1/3 mx-auto  mt-5"/>
         
         <a class="flex mx-4 lg:mx-10 mt-10 px-3 hover:bg-blue-100"
         target="_blank"
