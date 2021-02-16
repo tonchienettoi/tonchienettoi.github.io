@@ -273,7 +273,7 @@
       </div>
     </div>
 
-    <div class="grid grid-cols-3 gap-4 px-3 lg:px-10">
+    <div class="lg:grid lg:grid-cols-3 lg:gap-4 px-3 lg:px-10 mt-3">
         <div class="bg-white shadow rounded-lg py-3 px-8">
             
             <p class="text-center text-lg font-semibold text-blue-700">Alison &amp; Roky</p>
