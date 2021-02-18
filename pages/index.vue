@@ -8,16 +8,18 @@
 
     <div class="relative z-0 bg-white">
       <img
-              src="../assets/images/first_mobile.jpg"
-              class="self-center w-full md:hidden"/>
+        alt="chien heureux qui court"
+        src="../assets/images/first_mobile.jpg"
+        class="self-center w-full md:hidden"/>
      <img
-              src="../assets/images/first.jpg"
-              class="self-center w-full hidden md:block"/>
+        alt="chien heureux qui court"
+        src="../assets/images/first.jpg"
+        class="self-center w-full hidden md:block"/>
 
       <div class="absolute top-0 mt-16 lg:mt-24 ml-8">
         <div class="flex">
           <div class="bg-blue-400 w-8 h-1 self-center mr-3"/>
-          <img class="h-10 self-center  object-contain" src="../assets/images/name_white.png"/> 
+          <img class="h-10 self-center  object-contain" alt="ton chien et toi logo" src="../assets/images/name_white.png"/> 
 
         </div>
         <h1 class="text-4xl lg:text-5xl text-gray-200 font-semibold">Education canine <br/> Troubles du comportement</h1>
@@ -62,6 +64,7 @@
 
     <section id="methodes" class="relative lg:flex items-center px-4 mt-10">
       <img
+          alt="chien de toute râce"
           src="../assets/images/chien_toutes_races.jpg"
           class="self-center rounded-2xl"
           style="width: 350px"/>
@@ -126,7 +129,7 @@
         </div>
       </div>
 
-      <div class="lg:grid lg:grid-cols-3 lg:gap-6 px-4 lg:px-0  mx-10 mt-3">
+      <div class="lg:grid lg:grid-cols-3 lg:gap-6 px-4 lg:px-0  mx-3 lg:mx-10 mt-3">
         
         <div class="bg-white rounded-2xl shadow-md">
           

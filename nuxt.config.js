@@ -47,7 +47,7 @@ export default {
         hid: 'og:image',
         property: 'og:image',
         content:
-        '/assets/images/anne_educ_dog.png',
+        './assets/images/anne_educ_dog.png',
         },
         {
         hid: 'og:site_name',
@@ -102,7 +102,7 @@ export default {
     '@nuxtjs/sitemap'
   ],
   sitemap: {
-    hostname: 'https://tonchienettoi.github.io',
+    hostname: 'https://tonchienettoi.fr',
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
