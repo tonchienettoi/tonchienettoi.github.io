@@ -17,7 +17,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Educateur cannin, résolution de troubles de comportement (agréssivité, destruction ...) en Isère et Savoie' },
+      { hid: 'description', name: 'description', content: 'Educateur cnnin, résolution de troubles de comportement (agréssivité, destruction ...) en Isère et Savoie' },
       {
         hid: 'twitter:card',
         name: 'twitter:card',
@@ -72,7 +72,7 @@ export default {
         {
         hid: 'og:description',
         name: 'og:description',
-        content:'Educatrice cannin, résolution de troubles de comportement (agréssivité, destruction ...) en Isère et Savoie'
+        content:'Educatrice canin, résolution de troubles de comportement (agréssivité, destruction ...) en Isère et Savoie'
         }
     ],
     link: [
@@ -95,6 +95,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-analytics'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -107,5 +108,9 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+
+  googleAnalytics: {
+    id: 'G-J8J22PGC9W'
   }
 }
