@@ -10,10 +10,15 @@
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
+    "@nuxtjs/sitemap": "^2.4.0",
+    "@splidejs/vue-splide": "^0.3.5",
     "core-js": "^3.8.2",
-    "nuxt": "^2.14.12"
+    "nuxt": "^2.14.12",
+    "vue-burger-menu": "^2.0.5",
+    "vue-youtube-embed": "^2.2.2"
   },
   "devDependencies": {
+    "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/tailwindcss": "^3.4.2",
     "gh-pages": "^3.1.0",
     "push-dir": "^0.4.1"
