@@ -55,7 +55,7 @@
       <li>
         <NuxtLink 
             class="self-center "
-            to="/about"
+            to="/educateur-canin-grenoble"
             v-if="page != 'about'">
             À propos de moi
         </NuxtLink>

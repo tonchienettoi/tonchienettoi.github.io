@@ -15,7 +15,7 @@
        <a id="balades" href="/promenade-chien-grenoble">
         <span>Promenades</span>
       </a>
-       <a id="about" href="/about">
+       <a id="about" href="/educateur-canin-grenoble">
         <span>A propos de moi</span>
       </a>
 
