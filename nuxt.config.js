@@ -14,14 +14,14 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Educateur canin à Crolles, de Grenoble à Chambéry',
+    title: 'Educateur canin Grenoble - Méthode positive',
     htmlAttrs: {
       lang: 'fr'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Éducateur comportementaliste canin en Isère et Savoie (de Grenoble à Chambéry). Méthode positive. Résolution de troubles du comportement (agressivité, destruction, vols ...)' },
+      { hid: 'description', name: 'description', content: 'Éducateur comportementaliste canin en Isère et Savoie (de Grenoble à Chambéry).Résolution de troubles du comportement (agressivité, destruction, vols ...)' },
       {
         hid: 'twitter:card',
         name: 'twitter:card',
@@ -45,7 +45,7 @@ export default {
         {
         hid: 'twitter:description',
         name: 'twitter:description',
-        content:'Éducateur comportementaliste canin en Isère et Savoie (de Grenoble à Chambéry). Méthode positive. Résolution de troubles du comportement (agressivité, destruction, vols ...)',
+        content:'Éducateur comportementaliste canin en Isère et Savoie (de Grenoble à Chambéry).Résolution de troubles du comportement (agressivité, destruction, vols ...)',
         },
         {
         hid: 'og:image',
@@ -76,7 +76,7 @@ export default {
         {
         hid: 'og:description',
         name: 'og:description',
-        content:'Éducateur comportementaliste canin en Isère et Savoie (de Grenoble à Chambéry). Méthode positive. Résolution de troubles du comportement (agressivité, destruction, vols ...)'
+        content:'Éducateur comportementaliste canin en Isère et Savoie (de Grenoble à Chambéry).Résolution de troubles du comportement (agressivité, destruction, vols ...)'
         }
     ],
     link: [

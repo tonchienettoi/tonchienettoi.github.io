@@ -7,7 +7,8 @@
     <div class="flex">
     <img
       src="../assets/images/logo.svg"
-      class="w-10 h-10 self-center"/> 
+      class="w-10 h-10 self-center"
+      alt="éducateur canin Grenoble logo"/> 
 
     <p class="company_name self-center font-bold text-2xl mt-1">Ton Chien et Toi</p>
     </div>
@@ -24,7 +25,7 @@
       <li>
         <NuxtLink 
             class="self-center "
-            to="/education"
+            to="/education-canine-grenoble"
             v-if="page != 'education'">
           Éducation
         </NuxtLink>
@@ -34,7 +35,7 @@
         <li>
             <NuxtLink 
                 class="self-center "
-                to="/comportement"
+                to="/trouble-comportement-grenoble"
                 v-if="page != 'comportement'">
             Troubles du comportement
             </NuxtLink>
@@ -44,7 +45,7 @@
         <li>
             <NuxtLink 
                 class="self-center "
-                to="/balade"
+                to="/promenade-chien-grenoble"
                 v-if="page != 'balade'">
             Promenades
             </NuxtLink>

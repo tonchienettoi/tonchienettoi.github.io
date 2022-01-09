@@ -8,11 +8,11 @@
 
     <div class="relative z-0 bg-white">
       <img
-        alt="rendre un chien heureux via une bonne éducation"
+        alt="éducateur canin Grenoble - chien heureux"
         src="../assets/images/first_mobile.webp"
         class="self-center w-full md:hidden"/>
      <img
-        alt="rendre un chien heureux via une bonne éducation"
+        alt="éducateur canin Grenoble - chien heureux"
         src="../assets/images/first.webp"
         class="self-center w-full hidden md:block"/>
 
@@ -20,17 +20,17 @@
         <div class="flex">
           <p class="company_name font-bold text-4xl xl:text-6xl text-gray-200 text-center mx-auto xl:mx-0">Ton Chien et Toi</p>          
         </div>
-        <h1  v-if="isOnFb" class="text-gray-200  text-2xl font-semibold text-center xl:text-left ">Education canine <br/> Troubles du comportement</h1>
-        <h1 v-else class="text-gray-200 font-semibold text-4xl lg:text-5xl text-center xl:text-left ">Education canine <br/> Troubles du comportement</h1>
+        <h1  v-if="isOnFb" class="text-gray-200  text-2xl font-semibold text-center xl:text-left ">Education canine à Grenoble<br/> Troubles du comportement</h1>
+        <h1 v-else class="text-gray-200 font-semibold text-4xl lg:text-5xl text-center xl:text-left ">Education canine à Grenoble<br/> Troubles du comportement</h1>
         
       </div>
 
       <section class=" z-50 lg:grid px-2 lg:px-4 lg:grid-cols-3 lg:gap-10  mt-4 lg:-mt-16" id="education canine services">
         <div class="bg-white shadow lg:shadow-lg hover:bg-blue-100 flex px-2 py-3 rounded-xl">
-          <NuxtLink to="/education" class="flex">
+          <NuxtLink to="/education-canine-grenoble" class="flex">
             <img 
               src="../assets/images/dog_play.svg" 
-              alt="icon - chien éducation" class="w-12 h-12 self-center mr-3 bg-blue-200 p-2 rounded-full"/>
+              alt="icon éducateur cannin Grenoble" class="w-12 h-12 self-center mr-3 bg-blue-200 p-2 rounded-full"/>
             <div>
               <p class="text-blue-500 text-lg font-semibold mb-2">Éducation</p>
               <p class="">Apprendre les règles et les ordres de base pour avoir un chien et un maître bien dans leurs papattes.</p>
@@ -39,10 +39,10 @@
           </NuxtLink>
         </div>
         <div class="bg-white shadow lg:shadow-lg hover:bg-blue-100 flex px-2 py-3 rounded-xl mt-4 lg:mt-0">
-          <NuxtLink to="/comportement" class="flex">
+          <NuxtLink to="/trouble-comportement-grenoble" class="flex">
             <img 
               src="../assets/images/dog_comportement.svg" 
-              alt="icon chien comportement" class="w-12 h-12 self-center mr-3 bg-blue-200 p-2 rounded-full"/>
+              alt="icon comportementaliste canin Grenoble" class="w-12 h-12 self-center mr-3 bg-blue-200 p-2 rounded-full"/>
             <div>
               <p class="text-blue-500 text-lg font-semibold mb-2 break-words lg:break-normal">Trouble du comportement</p>
               <p class=""><span class="font-semibold">Ton Chien et Toi</span> s'adapte à chaque chien et ses troubles ainsi qu’ à vos besoins.</p>
@@ -53,10 +53,10 @@
 
 
         <div class="bg-white shadow lg:shadow-lg hover:bg-blue-100 flex px-2 py-3 rounded-xl mt-4 lg:mt-0">
-          <NuxtLink to="/balade" class="flex">
+          <NuxtLink to="/promenade-chien-grenoble" class="flex">
             <img 
               src="../assets/images/dog_educ.svg" 
-              alt="icon chien balade" class="w-12 h-12 self-center mr-3 bg-blue-200 p-2 rounded-full"/>
+              alt="icon promenade chien Grenoble" class="w-12 h-12 self-center mr-3 bg-blue-200 p-2 rounded-full"/>
             <div>
               <p class="text-blue-500 text-lg font-semibold mb-2">Balade</p>
               <p class="">Dépense physique et amusement.</p>
@@ -267,14 +267,6 @@
       </div>
 
     </div>
-
-    <section id="video" class=" mt-10">
-      <p class="text-2xl text-center w-full"><span class="company_name font-bold ">Ton chien et Toi</span> en action :</p>
-      <iframe 
-      class="w-full lg:w-1/2 h-64 px-4 lg:mx-auto mt-2"
-
-         src="https://www.youtube.com/embed/ps_gSbKIgBg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </section>
 
     <section id="contact" class="lg:flex mx-10 mt-12">
       <div class="self-center">
