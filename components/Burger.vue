@@ -6,13 +6,13 @@
       <a id="home" href="/">
         <span>Accueil</span>
       </a>
-       <a id="Education" href="/education">
+       <a id="Education" href="/education-canine-grenoble">
         <span>Education</span>
       </a>
-       <a id="comportment" href="/comportement">
+       <a id="comportment" href="/trouble-comportement-grenoble">
         <span>Troubles du comportements</span>
       </a>
-       <a id="balades" href="/balade">
+       <a id="balades" href="/promenade-chien-grenoble">
         <span>Promenades</span>
       </a>
        <a id="about" href="/about">
