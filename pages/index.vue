@@ -539,12 +539,12 @@ export default {
   },
   head () {
     return {
-      title: 'Éducateur canin à Crolles, de Grenoble à Chambéry',
+      title: 'Educateur canin Grenoble - Méthode positive',
       meta: [
         { 
           hid: 'description', 
           name: 'description', 
-          content: 'Éducateur comportementaliste canin en Isère et Savoie (de Grenoble à Chambéry). Méthode positive. Résolution de troubles du comportement (agressivité, destruction, vols ...)' 
+          content: 'Éducateur comportementaliste canin en Isère et Savoie (de Grenoble à Chambéry). Résolution de troubles du comportement (agressivité, destruction, vols ...)' 
         }
       ]
     }
